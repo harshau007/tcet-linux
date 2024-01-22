@@ -1,63 +1,63 @@
 ##TCET Linux Live ISO Packages
 
-#ArchISO Defaults
 alsa-utils
 amd-ucode
-#arch-install-scripts
-#archinstall
+arch-install-scripts
+archinstall
 b43-fwcutter
 base
 bind
-#brltty
-#broadcom-wl
+brltty
+broadcom-wl
 btrfs-progs
-#clonezilla
-#cloud-init
+clonezilla
+cloud-init
 cryptsetup
-#darkhttpd
-#ddrescue
+darkhttpd
+ddrescue
 dhclient
 dhcpcd
 diffutils
-#dmidecode
-#dmraid
+dmidecode
+dmraid
 dnsmasq
 dosfstools
 e2fsprogs
 edk2-shell
 efibootmgr
-#espeakup
+espeakup
 ethtool
 exfatprogs
 f2fs-tools
 fatresize
+foot-terminfo
 fsarchiver
 gnu-netcat
 gpart
-#gpm
+gpm
 gptfdisk
+grml-zsh-config
 grub
 hdparm
 hyperv
 intel-ucode
 irssi
-#iw
-#iwd
+iw
+iwd
 jfsutils
 kitty-terminfo
 less
 lftp
 libfido2
 libusb-compat
-linux-lts
-#linux-atm
+linux
+linux-atm
 linux-firmware
 linux-firmware-marvell
-#lsb-release
-#livecd-sounds
+livecd-sounds
 lsscsi
 lvm2
-#lynx
+lynx
 man-db
 man-pages
 mc
@@ -77,20 +77,20 @@ nilfs-utils
 nmap
 ntfs-3g
 nvme-cli
-#open-iscsi
-#open-vm-tools
-#openconnect
+open-iscsi
+open-vm-tools
+openconnect
 openssh
-#openvpn
+openvpn
 partclone
 parted
 partimage
 pcsclite
-#ppp
+ppp
 pptpclient
 pv
 qemu-guest-agent
-#refind
+refind
 reflector
 reiserfsprogs
 rp-pppoe
@@ -111,12 +111,13 @@ testdisk
 tmux
 tpm2-tss
 udftools
-#usb_modeswitch
+usb_modeswitch
 usbmuxd
 usbutils
 vim
-#virtualbox-guest-utils-nox
-#vpnc
+virtualbox-guest-utils-nox
+vpnc
+wezterm-terminfo
 wireless-regdb
 wireless_tools
 wpa_supplicant
@@ -125,13 +126,7 @@ xfsprogs
 xl2tpd
 zsh
 
-## TCET Linux Core
-base-devel
-pacman-contrib
-virtualbox-guest-utils
-
-
-## TCET Linux Desktop Env - 
+#Arch Linux GUI GNOME core
 xorg
 gdm
 bash-completion
@@ -154,11 +149,17 @@ gnome-terminal
 gnome-backgrounds
 gnome-music
 gnome-calendar
+#gnome-software
 gvfs
 mutter
 nautilus
 xdg-user-dirs-gtk
-neofetch
+noto-fonts
+
+## TCET Linux Core
+base-devel
+pacman-contrib
+virtualbox-guest-utils
 
 ## TCET Linux Theme
 tela-circle-icon
@@ -172,13 +173,10 @@ pulseaudio-bluetooth
 pavucontrol
 
 ## TCET Linux Utility Packages
-gvfs
-#neofetch
 galculator
 vlc
 
 ## TCET Linux Installer
-#grub
 calamares
 tcet-linux-installer-config
 os-prober
@@ -186,7 +184,6 @@ os-prober
 
 ## TCET Linux Browser
 firefox
-#tcet-linux-firefox-settings
 
 #ttf-ms-fonts
 #ttf-roboto
@@ -197,16 +194,7 @@ bluez
 bluez-utils
 blueman
 
-## AUR Installer and Helper
-#paru
-
-# Printer DriverS
-#cups
-#system-config-printer
-
 # Other packages
-#ttf-meslo-nerd-font-powerlevel10k
-#zsh-theme-powerlevel10k
 zsh-completions
 zsh-autosuggestions
 zsh-fast-syntax-highlighting
@@ -214,10 +202,8 @@ nerd-fonts-noto-sans-regular-complete
 awesome-terminal-fonts
 fzf
 powerline-fonts
-#find-the-command-git
 starship
 zsh-history-substring-search
-#grml-zsh-config
 
 # Firewalld
 firewalld
